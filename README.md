@@ -2,44 +2,44 @@
 
 ## The First Question
 
-You sit bolt upright at 3AM, heart racing.  
+You sit bolt upright at 3AM, heart racing.
 The equation fusion scientists have been looking for is staring back at you.
 
-As reality sets in, euphoria fades.  
+As reality sets in, euphoria fades.
 There is no way to monetize this. Not for you.
 
-The absurdity crushes you.  
-Dozens of well-funded fusion companies exist.  
+The absurdity crushes you.
+Dozens of well-funded fusion companies exist.
 All the legal and operational set up.
 
 They're looking for what you've discovered.
 
-Yet you'd need to build an organization from scratch to capture any value.  
-Deep thinkers are not operators.  
+Yet you'd need to build an organization from scratch to capture any value.
+Deep thinkers are not operators.
 Pure energy waste in a system supposedly optimizing for efficiency.
 
-If only there existed a mechanism to fairly compensate breakthrough insights.  
-One that could fairly evaluate your contribution.  
+If only there existed a mechanism to fairly compensate breakthrough insights.
+One that could fairly evaluate your contribution.
 Where you could swap your breakthrough for their open questions(and stock).
 
 What's more, your equation has two gaps.
 
-It requires a novel superconducting material you can't develop.  
+It requires a novel superconducting material you can't develop.
 The one person you know who has solved this lives on another continent, unreachable, with no reason to help you.
 
-It also needs quantum simulations beyond your expertise.  
-Handful of people globally can validate your work.  
-But they are locked behind institutional walls, inaccessible.  
-Even if found, they have the same problem as you.  
+It also needs quantum simulations beyond your expertise.
+Handful of people globally can validate your work.
+But they are locked behind institutional walls, inaccessible.
+Even if found, they have the same problem as you.
 How would you trust each other and why would they invest energy into it?
 
-You dread the missing connective tissue between brilliant minds.  
+You dread the missing connective tissue between brilliant minds.
 It wastes as much potential as the gap between insight and implementation.
 
-You close your notebook. It was an amazing ride.  
+You close your notebook. It was an amazing ride.
 Another breakthrough trapped in potential, never to be kinetic.
 
-How many more innovative ideas are trapped out there, spread across computer science, applied artificial intelligence or medicine?  
+How many more innovative ideas are trapped out there, spread across computer science, applied artificial intelligence or medicine?
 And how many brilliant people play office politics while sitting on world-changing ideas, knowing full well what we all know but never articulate?
 
 The current status quo is bullshit.
@@ -71,7 +71,7 @@ It is indeed true that modern systems provide more than yes/no questions. Howeve
 
 Data guides us only AFTER we have a conjectured model and a critical test in mind. And to have a conjectured model we must have deep understanding of the constituents of the said model - and the constituents of constituents, and so forth.
 
-Moreover, the information increase of the first phrase describing a novel system hugely reduces the informational entropy. Out of nothing, it has isolated a very narrow, plausible world-view. This is something that will be impossible for machines to do for a very long time.
+Moreover. The information increase of the first phrase describing a novel system hugely reduces the informational entropy. Out of nothing, it has isolated a very narrow, plausible world-view. This is something that will be impossible for machines to do for a very long time.
 
 This is a task fit for the human mind - which, dare we say, may be quantum in nature - and a mesh of human minds working together. Even if automated reasoning advances, WHAT to explore will be hard for current machines to decide (and this needs to be done recursively).
 
@@ -99,4 +99,106 @@ Modules can be written in any programming language and have clear APIs and a has
 
 Public modules have the ability to leverage private modules, thus increasing the chance of getting better by crowdsourcing fairly remunerated contributions.
 
-Investors can further evaluate the value of a module by bettin
+Investors can further evaluate the value of a module by betting on its future price or by making an acquisition offer. Modules become a proportion of each system they are plugged into.
+
+Security is easily breached when running code you download from the internet. Modules require permission and are automatically audited.
+
+### 3. Network Effects
+
+Leveraging highly specialized knowledge from people deeply interested in solving the problem minimizes the global energy needed to solve a problem. It also puts the system in a Nash equilibrium.
+
+Mechanics that minimize the energy needed to identify or call upon new thinkers and builders exist in an incipient phase. You are welcome to contribute. Either improve or think about new systems to do this. And get your share of OpenSpur, the new home of minds!
+
+## Implementation: Everything is a Plugin
+
+This repo is a plugin that runs on the blockchain and the entry point of the OpenSpur system. It will include the source code that can be executed and a list of dependent modules it relies on for said execution.
+
+Software is composed out of plugins with clear API. Plugins can be written by one person, one team or several teams. Every contribution to the git repository is evaluated by ACE as a percentage of all other contributions.
+
+Plugins can delegate parts of the work to other plugins even if such plugins do not yet exist. This is called a request-for-implementation. Big ideas break down recursively into ever smaller ideas, fueled by investor support.
+
+Plugins have associated per-run execution costs determined automatically. A software made up of a collection of plugins has a per-run execution cost.
+
+Plugins can be bought or sold in the innovation marketplace. When ownership is transferred, the new owner gets funds derived from all its execution.
+
+A plugin repository stores plugins and the following metadata about each plugin:
+
+1. The git repo (public or private)
+2. Hash of callable functions (common to all interchangeable plugins)
+3. Callable functions and the arity and type of parameters
+4. The compiled wasm
+5. Hash of modules called (and git repo)
+
+Plugins can be public or private. Private plugins can only run on vetted VPSs and clouds to protect the IP of the author.
+
+### Technical Implementation
+
+Plugins can be written in the following programming languages:
+- JavaScript / TypeScript (Node, Deno, Bun, browser)
+- Rust
+- Go
+- Python
+- Ruby
+- PHP
+- Java
+- .NET (C#, F#)
+- C
+- C++
+- Zig
+- OCaml
+- Elixir
+- Haskell
+- Perl
+
+Here is how you can make your favorite programming language compatible with OpenSpur. The compatibility module is... a module, so you stand to profit from implementing it.
+
+The trust layer is built on a custom tendermint blockchain. The token ticker is SPUR on all major blockchain platforms.
+
+With the SPUR token you can:
+1. Register a module in the repository
+2. Pay for deploying and running modules
+3. Buy module ownership
+
+SPUR can be obtained by:
+1. Direct BTC payment
+2. Burning our custom tokens on Ethereum, BNB and Solana
+3. Buying it with a bank transfer or credit card
+
+The default versioning system is git. Inside a module, this is how contributions are automatically evaluated.
+
+## Vision and Future
+
+Therefore, in order to:
+
+1. Maximize societal output
+2. Minimize misery (most jobs are bullshit)
+3. Let each human soar to the highest level of their creative force
+
+We need to be able to reward properly every contribution towards innovation - with a fraction of the energy saved thanks to their work (or energy spent).
+
+To recap, OpenSpur is a system that is:
+
+1. Fair, transparent - reward everybody that defines missions (visionaries) or contributes towards them
+2. Interoperable - let modules have clear APIs and be swappable
+3. Permissionless - accept contributions from everybody. Build tools to make it easy to do so.
+
+And we need to do this with the least amount of rules possible - so that it's easy to understand (minimize adoption energy) and contribute to and hard to corrupt.
+
+Axiomatically, these rules are rooted in truth, transparency and permissionlessness. We aim to find the minimal set of rules for distributing energy (resources) and leveraging information so that a diversity of human endeavors is harmonized.
+
+There is much more to write on this topic and the reasons behind building OpenSpur. From the foundational concepts of emergence, synergy and the encompassing reductionism world view. On to recursively breaking down big missions into actionable roadmaps, using crowdsourced, fairly remunerated knowledge. On leveraging at every step an ever-increasing mesh of experts such that the energy required to solve the tasks is minimized. And on building the tools to identify and automatically contact the best expert at the right time using our 700 million experts database.
+
+Which finally gets down to the implementation details of interoperable, swappable modules so we reach a point of Nash equilibrium.
+
+The horizon of human knowledge is infinite and we're obliged to chase it. Let's do it with love, in truth and with grace!
+
+---
+
+The initial tasks were to:
+1. Set the minimum necessary preconditions for this whole ecosystem to flourish (system design + behavior)
+2. Explain it using the least amount of words (minimize the energy needed for adoption)
+3. Incentivize key player adoption
+
+The following tasks are to chase the infinite horizon of knowledge and possibility.
+
+The games have just begun!
