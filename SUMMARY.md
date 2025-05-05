@@ -4,6 +4,6 @@
 
 ## The protocol
 
-* [Page](the-protocol/page.md)
-* [YES YES YES](the-protocol/yes-yes-yes.md)
-* [Page 1](the-protocol/page-1.md)
+* [Introduction](protocol/introduction.md)
+* [Principles](protocol/principles.md)
+* [Implementation](protocol/implementation.md)
