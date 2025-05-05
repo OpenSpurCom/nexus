@@ -1,9 +1,9 @@
 # Table of contents
 
-* [test-docs](README.md)
+* [The first question](README.md)
 
-## Group
+## The protocol
 
-* [Page](group/page.md)
-* [YES YES YES](group/yes-yes-yes.md)
-* [Page 1](group/page-1.md)
+* [Page](the-protocol/page.md)
+* [YES YES YES](the-protocol/yes-yes-yes.md)
+* [Page 1](the-protocol/page-1.md)
